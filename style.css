@@ -1,0 +1,118 @@
+/* Fond violet et texte blanc pour toute la page */
+body {
+    background-color: #5c3d99; /* violet foncé */
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style de la carte blanche contenant le formulaire */
+.card {
+    background-color: white;
+    color: #5c3d99;
+    border-radius: 12px;
+    padding: 30px;
+    max-width: 400px;
+    width: 100%;
+    box-shadow: 0 0 15px rgba(92,61,153,0.4);
+}
+
+/* Liens en violet */
+a {
+    color: #5c3d99;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #3a2873;
+    text-decoration: underline;
+}
+
+/* Bouton personnalisé violet */
+.custom-btn {
+    background-color: #5c3d99;
+    border: none;
+    color: white;
+}
+
+/* Bouton violet au survol */
+.custom-btn:hover {
+    background-color: #3a2873;
+}
+
+body {
+    background-color: #5c3d99; /* violet foncé */
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    background-color: white;
+    color: #5c3d99;
+    border-radius: 12px;
+    padding: 30px;
+    max-width: 400px;
+    width: 100%;
+    box-shadow: 0 0 15px rgba(92,61,153,0.4);
+}
+
+a {
+    color: #5c3d99;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #3a2873;
+    text-decoration: underline;
+}
+
+.custom-btn {
+    background-color: #5c3d99;
+    border: none;
+    color: white;
+}
+
+.custom-btn:hover {
+    background-color: #3a2873;
+}
+
+
+.img-principale {
+  border: 3px solid #0d6efd;
+}
+
+.objet-image {
+  max-width: 200px;
+  max-height: 150px;
+  object-fit: contain;
+  margin-right: 10px;
+}
+
+.images-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.table-responsive {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.btn-retour {
+  margin-top: 1rem;
+}
